@@ -1,0 +1,23 @@
+{
+  "name": "chain-cli",
+  "version": "1.0.6",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm publish ."
+  },
+  "bin": {
+    "chain-cli": "index.js"
+  },
+  "author": "ddz",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.0",
+    "download-git-repo": "^2.0.0",
+    "handlebars": "^4.1.2",
+    "inquirer": "^6.5.1",
+    "ora": "^3.4.0",
+    "symbols": "^0.0.6"
+  }
+}
