@@ -19,13 +19,13 @@ program
           {
             type: 'input',
             name: 'author',
-            message: '请输入作者名称',
+            message: '请输入作者名称'
           },
           {
             type: 'input',
             name: 'description',
-            message: '请输入项目描述信息',
-          },
+            message: '请输入项目描述信息'
+          }
         ])
         .then(answers => {
           const spinner = ora('正在下载模板...');
@@ -41,7 +41,7 @@ program
               const meta = {
                 name,
                 description,
-                author: author,
+                author: author
               };
               if (fs.existsSync(fileName)) {
                 const content = fs.readFileSync(fileName).toString();

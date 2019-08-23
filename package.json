@@ -1,13 +1,13 @@
 {
   "name": "chain-cli",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
     "start": "npm publish ."
   },
   "bin": {
-    "chain-cli": "index.js"
+    "chain-cli": "./index.js"
   },
   "author": "ddz",
   "license": "ISC",
